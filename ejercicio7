@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+<script>
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+<hr>
+
+
+<h1 id="myH1"></h1>
+
+<p id="myP1"></p>
+
+<script>
+    
+    document.getElementById("myH1").innerHTML = "JavaScript Comments";
+    document.getElementById("myP1").innerHTML = "My first paragraph.";
+    </script>
+
+<hr>
+<h1 id="myH"></h1>
+
+<p id="myP"></p>
+
+<script>
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+
+<p>The line starting with // is not executed.</p>
+
+<hr>
+
+<h1 id="myH"></h1>
+
+<p id="myP"></p>
+
+<script>
+
+document.getElementById("myP").innerHTML = "The comment-block is not executed.";
+</script>
+
+
+</body>
+</html>
